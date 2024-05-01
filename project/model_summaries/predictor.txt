@@ -1,0 +1,41 @@
+{'model_types': {'KNeighborsUnif_BAG_L1': 'StackerEnsembleModel_KNN', 'KNeighborsDist_BAG_L1': 'StackerEnsembleModel_KNN', 'LightGBMXT_BAG_L1': 'StackerEnsembleModel_LGB', 'LightGBM_BAG_L1': 'StackerEnsembleModel_LGB', 'RandomForestMSE_BAG_L1': 'StackerEnsembleModel_RF', 'CatBoost_BAG_L1': 'StackerEnsembleModel_CatBoost', 'ExtraTreesMSE_BAG_L1': 'StackerEnsembleModel_XT', 'WeightedEnsemble_L2': 'WeightedEnsembleModel', 'LightGBMXT_BAG_L2': 'StackerEnsembleModel_LGB', 'LightGBM_BAG_L2': 'StackerEnsembleModel_LGB', 'RandomForestMSE_BAG_L2': 'StackerEnsembleModel_RF', 'WeightedEnsemble_L3': 'WeightedEnsembleModel'}, 'model_performance': {'KNeighborsUnif_BAG_L1': -101.54619908446061, 'KNeighborsDist_BAG_L1': -84.12506123181602, 'LightGBMXT_BAG_L1': -131.46090891834504, 'LightGBM_BAG_L1': -131.054161598899, 'RandomForestMSE_BAG_L1': -116.54835939455667, 'CatBoost_BAG_L1': -131.18580301121736, 'ExtraTreesMSE_BAG_L1': -124.60067564699747, 'WeightedEnsemble_L2': -84.12506123181602, 'LightGBMXT_BAG_L2': -60.463622040326, 'LightGBM_BAG_L2': -55.06602834706301, 'RandomForestMSE_BAG_L2': -53.440740932125664, 'WeightedEnsemble_L3': -53.12214249648635}, 'model_best': 'WeightedEnsemble_L3', 'model_paths': {'KNeighborsUnif_BAG_L1': ['KNeighborsUnif_BAG_L1'], 'KNeighborsDist_BAG_L1': ['KNeighborsDist_BAG_L1'], 'LightGBMXT_BAG_L1': ['LightGBMXT_BAG_L1'], 'LightGBM_BAG_L1': ['LightGBM_BAG_L1'], 'RandomForestMSE_BAG_L1': ['RandomForestMSE_BAG_L1'], 'CatBoost_BAG_L1': ['CatBoost_BAG_L1'], 'ExtraTreesMSE_BAG_L1': ['ExtraTreesMSE_BAG_L1'], 'WeightedEnsemble_L2': ['WeightedEnsemble_L2'], 'LightGBMXT_BAG_L2': ['LightGBMXT_BAG_L2'], 'LightGBM_BAG_L2': ['LightGBM_BAG_L2'], 'RandomForestMSE_BAG_L2': ['RandomForestMSE_BAG_L2'], 'WeightedEnsemble_L3': ['WeightedEnsemble_L3']}, 'model_fit_times': {'KNeighborsUnif_BAG_L1': 0.07753491401672363, 'KNeighborsDist_BAG_L1': 0.06505322456359863, 'LightGBMXT_BAG_L1': 87.8729944229126, 'LightGBM_BAG_L1': 37.01331424713135, 'RandomForestMSE_BAG_L1': 18.81973695755005, 'CatBoost_BAG_L1': 91.30641841888428, 'ExtraTreesMSE_BAG_L1': 10.497520208358765, 'WeightedEnsemble_L2': 0.040560007095336914, 'LightGBMXT_BAG_L2': 67.15005016326904, 'LightGBM_BAG_L2': 33.15122580528259, 'RandomForestMSE_BAG_L2': 47.723474740982056, 'WeightedEnsemble_L3': 0.04248404502868652}, 'model_pred_times': {'KNeighborsUnif_BAG_L1': 0.09341859817504883, 'KNeighborsDist_BAG_L1': 0.11188888549804688, 'LightGBMXT_BAG_L1': 20.93908190727234, 'LightGBM_BAG_L1': 2.6760904788970947, 'RandomForestMSE_BAG_L1': 0.8722617626190186, 'CatBoost_BAG_L1': 0.11906599998474121, 'ExtraTreesMSE_BAG_L1': 0.6885673999786377, 'WeightedEnsemble_L2': 0.001119852066040039, 'LightGBMXT_BAG_L2': 5.450868606567383, 'LightGBM_BAG_L2': 0.33936142921447754, 'RandomForestMSE_BAG_L2': 0.7372384071350098, 'WeightedEnsemble_L3': 0.0009248256683349609}, 'num_bag_folds': 8, 'max_stack_level': 3, 'model_hyperparams': {'KNeighborsUnif_BAG_L1': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True, 'use_child_oof': True}, 'KNeighborsDist_BAG_L1': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True, 'use_child_oof': True}, 'LightGBMXT_BAG_L1': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}, 'LightGBM_BAG_L1': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}, 'RandomForestMSE_BAG_L1': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True, 'use_child_oof': True}, 'CatBoost_BAG_L1': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}, 'ExtraTreesMSE_BAG_L1': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True, 'use_child_oof': True}, 'WeightedEnsemble_L2': {'use_orig_features': False, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}, 'LightGBMXT_BAG_L2': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}, 'LightGBM_BAG_L2': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}, 'RandomForestMSE_BAG_L2': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True, 'use_child_oof': True}, 'WeightedEnsemble_L3': {'use_orig_features': False, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}}, 'leaderboard':                      model   score_val              eval_metric  \
+0      WeightedEnsemble_L3  -53.122142  root_mean_squared_error   
+1   RandomForestMSE_BAG_L2  -53.440741  root_mean_squared_error   
+2          LightGBM_BAG_L2  -55.066028  root_mean_squared_error   
+3        LightGBMXT_BAG_L2  -60.463622  root_mean_squared_error   
+4    KNeighborsDist_BAG_L1  -84.125061  root_mean_squared_error   
+5      WeightedEnsemble_L2  -84.125061  root_mean_squared_error   
+6    KNeighborsUnif_BAG_L1 -101.546199  root_mean_squared_error   
+7   RandomForestMSE_BAG_L1 -116.548359  root_mean_squared_error   
+8     ExtraTreesMSE_BAG_L1 -124.600676  root_mean_squared_error   
+9          LightGBM_BAG_L1 -131.054162  root_mean_squared_error   
+10         CatBoost_BAG_L1 -131.185803  root_mean_squared_error   
+11       LightGBMXT_BAG_L1 -131.460909  root_mean_squared_error   
+
+    pred_time_val    fit_time  pred_time_val_marginal  fit_time_marginal  \
+0       32.028768  393.719807                0.000925           0.042484   
+1       26.237613  293.376047                0.737238          47.723475   
+2       25.839736  278.803798                0.339361          33.151226   
+3       30.951244  312.802623                5.450869          67.150050   
+4        0.111889    0.065053                0.111889           0.065053   
+5        0.113009    0.105613                0.001120           0.040560   
+6        0.093419    0.077535                0.093419           0.077535   
+7        0.872262   18.819737                0.872262          18.819737   
+8        0.688567   10.497520                0.688567          10.497520   
+9        2.676090   37.013314                2.676090          37.013314   
+10       0.119066   91.306418                0.119066          91.306418   
+11      20.939082   87.872994               20.939082          87.872994   
+
+    stack_level  can_infer  fit_order  
+0             3       True         12  
+1             2       True         11  
+2             2       True         10  
+3             2       True          9  
+4             1       True          2  
+5             2       True          8  
+6             1       True          1  
+7             1       True          5  
+8             1       True          7  
+9             1       True          4  
+10            1       True          6  
+11            1       True          3  }

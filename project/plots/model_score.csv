@@ -1,0 +1,4 @@
+,model,hpo1,hpo2,hpo3,score
+0,initial,default,default,default,1.80795
+1,add_features,default,default,default,0.48986
+2,hpo,"{'n_estimators': Int: lower=100, upper=400, 'max_depth': Int: lower=4, upper=12, 'learning_rate': Real: lower=0.0001, upper=0.01}","{'iterations': 100, 'learning_rate': Real: lower=0.0001, upper=0.01, 'depth': Int: lower=6, upper=10}","{'num_boost_round': 100, 'num_leaves': Int: lower=26, upper=66}",0.50607

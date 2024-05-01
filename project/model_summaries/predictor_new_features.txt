@@ -1,0 +1,41 @@
+{'model_types': {'KNeighborsUnif_BAG_L1': 'StackerEnsembleModel_KNN', 'KNeighborsDist_BAG_L1': 'StackerEnsembleModel_KNN', 'LightGBMXT_BAG_L1': 'StackerEnsembleModel_LGB', 'LightGBM_BAG_L1': 'StackerEnsembleModel_LGB', 'RandomForestMSE_BAG_L1': 'StackerEnsembleModel_RF', 'CatBoost_BAG_L1': 'StackerEnsembleModel_CatBoost', 'WeightedEnsemble_L2': 'WeightedEnsembleModel', 'LightGBMXT_BAG_L2': 'StackerEnsembleModel_LGB', 'LightGBM_BAG_L2': 'StackerEnsembleModel_LGB', 'RandomForestMSE_BAG_L2': 'StackerEnsembleModel_RF', 'CatBoost_BAG_L2': 'StackerEnsembleModel_CatBoost', 'WeightedEnsemble_L3': 'WeightedEnsembleModel'}, 'model_performance': {'KNeighborsUnif_BAG_L1': -123.93326033133259, 'KNeighborsDist_BAG_L1': -119.36560130583281, 'LightGBMXT_BAG_L1': -37.09782821469706, 'LightGBM_BAG_L1': -37.69285008347106, 'RandomForestMSE_BAG_L1': -42.15060121046798, 'CatBoost_BAG_L1': -42.4205520497911, 'WeightedEnsemble_L2': -35.97748314286969, 'LightGBMXT_BAG_L2': -37.20228931531871, 'LightGBM_BAG_L2': -36.25402201092047, 'RandomForestMSE_BAG_L2': -36.60409811662997, 'CatBoost_BAG_L2': -40.6813212708664, 'WeightedEnsemble_L3': -35.688782192919014}, 'model_best': 'WeightedEnsemble_L3', 'model_paths': {'KNeighborsUnif_BAG_L1': ['KNeighborsUnif_BAG_L1'], 'KNeighborsDist_BAG_L1': ['KNeighborsDist_BAG_L1'], 'LightGBMXT_BAG_L1': ['LightGBMXT_BAG_L1'], 'LightGBM_BAG_L1': ['LightGBM_BAG_L1'], 'RandomForestMSE_BAG_L1': ['RandomForestMSE_BAG_L1'], 'CatBoost_BAG_L1': ['CatBoost_BAG_L1'], 'WeightedEnsemble_L2': ['WeightedEnsemble_L2'], 'LightGBMXT_BAG_L2': ['LightGBMXT_BAG_L2'], 'LightGBM_BAG_L2': ['LightGBM_BAG_L2'], 'RandomForestMSE_BAG_L2': ['RandomForestMSE_BAG_L2'], 'CatBoost_BAG_L2': ['CatBoost_BAG_L2'], 'WeightedEnsemble_L3': ['WeightedEnsemble_L3']}, 'model_fit_times': {'KNeighborsUnif_BAG_L1': 0.04366445541381836, 'KNeighborsDist_BAG_L1': 0.047193288803100586, 'LightGBMXT_BAG_L1': 124.80491924285889, 'LightGBM_BAG_L1': 57.343181133270264, 'RandomForestMSE_BAG_L1': 17.79121422767639, 'CatBoost_BAG_L1': 59.50598764419556, 'WeightedEnsemble_L2': 0.051798105239868164, 'LightGBMXT_BAG_L2': 31.499622344970703, 'LightGBM_BAG_L2': 29.705938816070557, 'RandomForestMSE_BAG_L2': 43.7865207195282, 'CatBoost_BAG_L2': 20.8074893951416, 'WeightedEnsemble_L3': 0.05459928512573242}, 'model_pred_times': {'KNeighborsUnif_BAG_L1': 0.21322131156921387, 'KNeighborsDist_BAG_L1': 0.17992591857910156, 'LightGBMXT_BAG_L1': 40.486390829086304, 'LightGBM_BAG_L1': 7.102583646774292, 'RandomForestMSE_BAG_L1': 0.6831285953521729, 'CatBoost_BAG_L1': 0.1932966709136963, 'WeightedEnsemble_L2': 0.0013611316680908203, 'LightGBMXT_BAG_L2': 0.48862648010253906, 'LightGBM_BAG_L2': 0.14997100830078125, 'RandomForestMSE_BAG_L2': 0.9874575138092041, 'CatBoost_BAG_L2': 0.07944393157958984, 'WeightedEnsemble_L3': 0.0013628005981445312}, 'num_bag_folds': 8, 'max_stack_level': 3, 'model_hyperparams': {'KNeighborsUnif_BAG_L1': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True, 'use_child_oof': True}, 'KNeighborsDist_BAG_L1': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True, 'use_child_oof': True}, 'LightGBMXT_BAG_L1': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}, 'LightGBM_BAG_L1': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}, 'RandomForestMSE_BAG_L1': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True, 'use_child_oof': True}, 'CatBoost_BAG_L1': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}, 'WeightedEnsemble_L2': {'use_orig_features': False, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}, 'LightGBMXT_BAG_L2': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}, 'LightGBM_BAG_L2': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}, 'RandomForestMSE_BAG_L2': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True, 'use_child_oof': True}, 'CatBoost_BAG_L2': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}, 'WeightedEnsemble_L3': {'use_orig_features': False, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}}, 'leaderboard':                      model   score_val              eval_metric  \
+0      WeightedEnsemble_L3  -35.688782  root_mean_squared_error   
+1      WeightedEnsemble_L2  -35.977483  root_mean_squared_error   
+2          LightGBM_BAG_L2  -36.254022  root_mean_squared_error   
+3   RandomForestMSE_BAG_L2  -36.604098  root_mean_squared_error   
+4        LightGBMXT_BAG_L1  -37.097828  root_mean_squared_error   
+5        LightGBMXT_BAG_L2  -37.202289  root_mean_squared_error   
+6          LightGBM_BAG_L1  -37.692850  root_mean_squared_error   
+7          CatBoost_BAG_L2  -40.681321  root_mean_squared_error   
+8   RandomForestMSE_BAG_L1  -42.150601  root_mean_squared_error   
+9          CatBoost_BAG_L1  -42.420552  root_mean_squared_error   
+10   KNeighborsDist_BAG_L1 -119.365601  root_mean_squared_error   
+11   KNeighborsUnif_BAG_L1 -123.933260  root_mean_squared_error   
+
+    pred_time_val    fit_time  pred_time_val_marginal  fit_time_marginal  \
+0       49.997338  333.083219                0.001363           0.054599   
+1       48.466761  259.497100                0.001361           0.051798   
+2       49.008518  289.242099                0.149971          29.705939   
+3       49.846004  303.322681                0.987458          43.786521   
+4       40.486391  124.804919               40.486391         124.804919   
+5       49.347173  291.035782                0.488626          31.499622   
+6        7.102584   57.343181                7.102584          57.343181   
+7       48.937991  280.343649                0.079444          20.807489   
+8        0.683129   17.791214                0.683129          17.791214   
+9        0.193297   59.505988                0.193297          59.505988   
+10       0.179926    0.047193                0.179926           0.047193   
+11       0.213221    0.043664                0.213221           0.043664   
+
+    stack_level  can_infer  fit_order  
+0             3       True         12  
+1             2       True          7  
+2             2       True          9  
+3             2       True         10  
+4             1       True          3  
+5             2       True          8  
+6             1       True          4  
+7             2       True         11  
+8             1       True          5  
+9             1       True          6  
+10            1       True          2  
+11            1       True          1  }

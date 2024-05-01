@@ -1,0 +1,47 @@
+{'model_types': {'LightGBM_BAG_L1/T1': 'StackerEnsembleModel_LGB', 'LightGBM_BAG_L1/T2': 'StackerEnsembleModel_LGB', 'CatBoost_BAG_L1/T1': 'StackerEnsembleModel_CatBoost', 'CatBoost_BAG_L1/T2': 'StackerEnsembleModel_CatBoost', 'XGBoost_BAG_L1/T1': 'StackerEnsembleModel_XGBoost', 'XGBoost_BAG_L1/T2': 'StackerEnsembleModel_XGBoost', 'WeightedEnsemble_L2': 'WeightedEnsembleModel', 'LightGBM_BAG_L2/T1': 'StackerEnsembleModel_LGB', 'LightGBM_BAG_L2/T2': 'StackerEnsembleModel_LGB', 'CatBoost_BAG_L2/T1': 'StackerEnsembleModel_CatBoost', 'CatBoost_BAG_L2/T2': 'StackerEnsembleModel_CatBoost', 'XGBoost_BAG_L2/T1': 'StackerEnsembleModel_XGBoost', 'XGBoost_BAG_L2/T2': 'StackerEnsembleModel_XGBoost', 'WeightedEnsemble_L3': 'WeightedEnsembleModel'}, 'model_performance': {'LightGBM_BAG_L1/T1': -44.763691845399414, 'LightGBM_BAG_L1/T2': -43.131782976818634, 'CatBoost_BAG_L1/T1': -175.68002351082714, 'CatBoost_BAG_L1/T2': -128.75409358363413, 'XGBoost_BAG_L1/T1': -175.1374646067067, 'XGBoost_BAG_L1/T2': -116.27416981509981, 'WeightedEnsemble_L2': -43.131782976818634, 'LightGBM_BAG_L2/T1': -42.02896359452651, 'LightGBM_BAG_L2/T2': -41.95292936129566, 'CatBoost_BAG_L2/T1': -173.4157882760992, 'CatBoost_BAG_L2/T2': -125.21829928432977, 'XGBoost_BAG_L2/T1': -172.88065736920984, 'XGBoost_BAG_L2/T2': -90.8546217337538, 'WeightedEnsemble_L3': -41.77572021031271}, 'model_best': 'WeightedEnsemble_L3', 'model_paths': {'LightGBM_BAG_L1/T1': ['LightGBM_BAG_L1', 'T1'], 'LightGBM_BAG_L1/T2': ['LightGBM_BAG_L1', 'T2'], 'CatBoost_BAG_L1/T1': ['CatBoost_BAG_L1', 'T1'], 'CatBoost_BAG_L1/T2': ['CatBoost_BAG_L1', 'T2'], 'XGBoost_BAG_L1/T1': ['XGBoost_BAG_L1', 'T1'], 'XGBoost_BAG_L1/T2': ['XGBoost_BAG_L1', 'T2'], 'WeightedEnsemble_L2': ['WeightedEnsemble_L2'], 'LightGBM_BAG_L2/T1': ['LightGBM_BAG_L2', 'T1'], 'LightGBM_BAG_L2/T2': ['LightGBM_BAG_L2', 'T2'], 'CatBoost_BAG_L2/T1': ['CatBoost_BAG_L2', 'T1'], 'CatBoost_BAG_L2/T2': ['CatBoost_BAG_L2', 'T2'], 'XGBoost_BAG_L2/T1': ['XGBoost_BAG_L2', 'T1'], 'XGBoost_BAG_L2/T2': ['XGBoost_BAG_L2', 'T2'], 'WeightedEnsemble_L3': ['WeightedEnsemble_L3']}, 'model_fit_times': {'LightGBM_BAG_L1/T1': 33.608129024505615, 'LightGBM_BAG_L1/T2': 31.639397621154785, 'CatBoost_BAG_L1/T1': 26.728724241256714, 'CatBoost_BAG_L1/T2': 31.660811185836792, 'XGBoost_BAG_L1/T1': 27.619839191436768, 'XGBoost_BAG_L1/T2': 31.103930473327637, 'WeightedEnsemble_L2': 0.04813528060913086, 'LightGBM_BAG_L2/T1': 32.0120575428009, 'LightGBM_BAG_L2/T2': 31.242098331451416, 'CatBoost_BAG_L2/T1': 32.76916289329529, 'CatBoost_BAG_L2/T2': 48.89837336540222, 'XGBoost_BAG_L2/T1': 30.461073875427246, 'XGBoost_BAG_L2/T2': 36.93322682380676, 'WeightedEnsemble_L3': 0.07728242874145508}, 'model_pred_times': {'LightGBM_BAG_L1/T1': 0.0001704692840576172, 'LightGBM_BAG_L1/T2': 0.00019240379333496094, 'CatBoost_BAG_L1/T1': 0.00025272369384765625, 'CatBoost_BAG_L1/T2': 0.0001823902130126953, 'XGBoost_BAG_L1/T1': 0.0006756782531738281, 'XGBoost_BAG_L1/T2': 0.00018453598022460938, 'WeightedEnsemble_L2': 0.0014429092407226562, 'LightGBM_BAG_L2/T1': 0.0006761550903320312, 'LightGBM_BAG_L2/T2': 0.00017404556274414062, 'CatBoost_BAG_L2/T1': 0.00017452239990234375, 'CatBoost_BAG_L2/T2': 0.00019097328186035156, 'XGBoost_BAG_L2/T1': 0.0001990795135498047, 'XGBoost_BAG_L2/T2': 0.00029397010803222656, 'WeightedEnsemble_L3': 0.0011806488037109375}, 'num_bag_folds': 8, 'max_stack_level': 3, 'model_hyperparams': {'LightGBM_BAG_L1/T1': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}, 'LightGBM_BAG_L1/T2': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}, 'CatBoost_BAG_L1/T1': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}, 'CatBoost_BAG_L1/T2': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}, 'XGBoost_BAG_L1/T1': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}, 'XGBoost_BAG_L1/T2': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}, 'WeightedEnsemble_L2': {'use_orig_features': False, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}, 'LightGBM_BAG_L2/T1': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}, 'LightGBM_BAG_L2/T2': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}, 'CatBoost_BAG_L2/T1': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}, 'CatBoost_BAG_L2/T2': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}, 'XGBoost_BAG_L2/T1': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}, 'XGBoost_BAG_L2/T2': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}, 'WeightedEnsemble_L3': {'use_orig_features': False, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}}, 'leaderboard':                   model   score_val              eval_metric  pred_time_val  \
+0   WeightedEnsemble_L3  -41.775720  root_mean_squared_error       0.003689   
+1    LightGBM_BAG_L2/T2  -41.952929  root_mean_squared_error       0.001832   
+2    LightGBM_BAG_L2/T1  -42.028964  root_mean_squared_error       0.002334   
+3    LightGBM_BAG_L1/T2  -43.131783  root_mean_squared_error       0.000192   
+4   WeightedEnsemble_L2  -43.131783  root_mean_squared_error       0.001635   
+5    LightGBM_BAG_L1/T1  -44.763692  root_mean_squared_error       0.000170   
+6     XGBoost_BAG_L2/T2  -90.854622  root_mean_squared_error       0.001952   
+7     XGBoost_BAG_L1/T2 -116.274170  root_mean_squared_error       0.000185   
+8    CatBoost_BAG_L2/T2 -125.218299  root_mean_squared_error       0.001849   
+9    CatBoost_BAG_L1/T2 -128.754094  root_mean_squared_error       0.000182   
+10    XGBoost_BAG_L2/T1 -172.880657  root_mean_squared_error       0.001857   
+11   CatBoost_BAG_L2/T1 -173.415788  root_mean_squared_error       0.001833   
+12    XGBoost_BAG_L1/T1 -175.137465  root_mean_squared_error       0.000676   
+13   CatBoost_BAG_L1/T1 -175.680024  root_mean_squared_error       0.000253   
+
+      fit_time  pred_time_val_marginal  fit_time_marginal  stack_level  \
+0   245.692270                0.001181           0.077282            3   
+1   213.602930                0.000174          31.242098            2   
+2   214.372889                0.000676          32.012058            2   
+3    31.639398                0.000192          31.639398            1   
+4    31.687533                0.001443           0.048135            2   
+5    33.608129                0.000170          33.608129            1   
+6   219.294059                0.000294          36.933227            2   
+7    31.103930                0.000185          31.103930            1   
+8   231.259205                0.000191          48.898373            2   
+9    31.660811                0.000182          31.660811            1   
+10  212.821906                0.000199          30.461074            2   
+11  215.129995                0.000175          32.769163            2   
+12   27.619839                0.000676          27.619839            1   
+13   26.728724                0.000253          26.728724            1   
+
+    can_infer  fit_order  
+0        True         14  
+1        True          9  
+2        True          8  
+3        True          2  
+4        True          7  
+5        True          1  
+6        True         13  
+7        True          6  
+8        True         11  
+9        True          4  
+10       True         12  
+11       True         10  
+12       True          5  
+13       True          3  }

@@ -1,0 +1,6 @@
+fileName                     date                 description                        status    publicScore  privateScore  
+---------------------------  -------------------  ---------------------------------  --------  -----------  ------------  
+submission_new_hpo.csv       2024-05-01 18:26:32  new features with hyperparameters  complete  0.50607      0.50607       
+submission_new_hpo.csv       2024-05-01 17:17:29  new features with hyperparameters  complete  0.52129      0.52129       
+submission_new_features.csv  2024-05-01 17:03:15  new features                       complete  0.48698      0.48698       
+submission.csv               2024-05-01 16:39:01  first raw submission               complete  1.80236      1.80236       
