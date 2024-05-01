@@ -32,13 +32,12 @@
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
-![plots/model_train_score.png](img/model_test_score.png)
-
+<img src="plots/model_train_score.png" alt="model_train_score_mse" width="500"/>
 
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
-![plots/model_test_score.png](img/model_test_score.png)
+<img src="plots/model_test_score.png" alt="model_test_score_mse" width="500"/>
 
 ## Summary
 **AutoGluon** is a very powerful tool for saving programmer time by choosing the best model for the problem needn't to let programmer run many models sequentially and choose the best one manual, actually the best model is that is trained on the feature engineered dataset with the column 'date' being zipped to its years, months, days and hours. while the wrost model was the one trained on the normal dataset before feature engineering, the hyperparameter tuning is not preferred when using AutoGluon as it do it already as I mentioned at the beginning, so it was a waste of time compared to its performance.
