@@ -16555,13 +16555,13 @@ Archive:  bike-sharing-demand.zip
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[155]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[163]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">best_model</span><span class="p">(</span><span class="n">autogluon_fitted</span><span class="p">):</span>
     <span class="c1"># Retrieve the best model</span>
     <span class="n">best_model_name</span> <span class="o">=</span> <span class="n">autogluon_fitted</span><span class="o">.</span><span class="n">leaderboard</span><span class="p">()</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="s1">'model'</span><span class="p">]</span>
-    <span class="n">best_model</span> <span class="o">=</span> <span class="n">autogluon_fitted</span><span class="o">.</span><span class="n">get_model_best</span><span class="p">()</span>
+    <span class="n">best_model</span> <span class="o">=</span> <span class="n">autogluon_fitted</span><span class="o">.</span><span class="n">model_best</span>
     <span class="k">return</span> <span class="n">best_model_name</span><span class="p">,</span> <span class="n">best_model</span>
 </pre></div>
 
@@ -16575,7 +16575,7 @@ Archive:  bike-sharing-demand.zip
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[156]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[164]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">best_model_name1</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">best_model</span><span class="p">(</span><span class="n">predictor</span><span class="p">)</span>
@@ -16602,19 +16602,6 @@ Archive:  bike-sharing-demand.zip
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>WeightedEnsemble_L3
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>&lt;ipython-input-155-e72f4ee0810c&gt;:4: DeprecationWarning: `get_model_best` has been deprecated and will be removed in version 1.2. Please use `model_best` instead. This will raise an error in the future!
-  best_model = autogluon_fitted.get_model_best()
 </pre>
 </div>
 </div>
@@ -17583,7 +17570,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[158]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[165]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">best_model_name2</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">best_model</span><span class="p">(</span><span class="n">predictor_new_features</span><span class="p">)</span>
@@ -17610,19 +17597,6 @@ class="
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>WeightedEnsemble_L3
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>&lt;ipython-input-155-e72f4ee0810c&gt;:4: DeprecationWarning: `get_model_best` has been deprecated and will be removed in version 1.2. Please use `model_best` instead. This will raise an error in the future!
-  best_model = autogluon_fitted.get_model_best()
 </pre>
 </div>
 </div>
@@ -18001,7 +17975,7 @@ submission_new_features.csv  2024-05-01 15:11:01  new features                  
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[159]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[166]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">best_model_name3</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">best_model</span><span class="p">(</span><span class="n">predictor_new_hpo</span><span class="p">)</span>
@@ -18028,19 +18002,6 @@ submission_new_features.csv  2024-05-01 15:11:01  new features                  
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>WeightedEnsemble_L3
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>&lt;ipython-input-155-e72f4ee0810c&gt;:4: DeprecationWarning: `get_model_best` has been deprecated and will be removed in version 1.2. Please use `model_best` instead. This will raise an error in the future!
-  best_model = autogluon_fitted.get_model_best()
 </pre>
 </div>
 </div>
@@ -18994,7 +18955,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[127]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[160]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>jupyter<span class="w"> </span>nbconvert<span class="w"> </span>--to<span class="w"> </span>html<span class="w"> </span>/content/Bike_Sharing_Count_Predictor.ipynb
@@ -19020,7 +18981,7 @@ class="
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>[NbConvertApp] Converting notebook /content/Bike_Sharing_Count_Predictor.ipynb to html
-[NbConvertApp] Writing 1137390 bytes to /content/Bike_Sharing_Count_Predictor.html
+[NbConvertApp] Writing 1158373 bytes to /content/Bike_Sharing_Count_Predictor.html
 </pre>
 </div>
 </div>
